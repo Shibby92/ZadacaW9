@@ -1,0 +1,26 @@
+1) Imate 2 binarna stabla T1 i T2, T1 ima milione cvorova (node), T2 ima manje od hiljadu. Napisite kod 
+
+koji ce provjeriti da li je T2 podstablo stabla T1, odnosno da li, stablo T1 sadrzi stablo T2. U slucaju ispod 
+
+T2 nije podstablo stabla T1, ali T3 jeste.
+
+2) Napisite algoritam koji ce naci zajednickog roditelja za dva cvora. Nije dozvoljeno koristiti dodatne
+
+strukture podataka da za cuvanje cvorova. Svaki cvor ima pokazivac na desno i lijevo, nemate pokazivac 
+
+na roditelja.
+
+Ova druga dva nisam uradio:
+3) Implementirajte metodu koja ce provjeriti da li je neko stablo "binary search tree".
+
+4) Skloniste za pse I macke radi isklucivo na "prvi dosao, prvi usvojen" principu. Osoba koja zeli da usvoju 
+
+zivotinju ima pravo da bira koji vrstu zivotinje hoce (psa ili macku) u tom slucaju ce dobiti zivotinju tog 
+
+tipa koja je prva dosla u skloniste. Ako osoba koja usvaja zivotinju ne navede koji vrstu zivotinje koju 
+
+hoce da usvoju dobice zivotinju koja je najduze u sklonistu. Napisite strukturu podataka koja ce pomoci 
+
+pri odrzavanju ovog sistema, potrebno je da implementirate metode: enqueue, dequeueAny, 
+
+dequeueCat, dequeueDog.
