@@ -1,5 +1,3 @@
-package ba.bitcamp.lectures.generics.intro.iterator;
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
@@ -152,6 +150,7 @@ public class CollectionUtils {
 	 * @param c to search for duplicate value
 	 * @return first duplicate value
 	 */
+	// CR: Nemas potrebu za idx i sub iteratorima ne koriste se osim sto broje bez potrebe
 	public static <E> E firstDuplicateValue(Collection<E> c) {
 		Iterator<E> iterator = c.iterator();
 		int idx = 0;

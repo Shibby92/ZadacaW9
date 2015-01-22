@@ -1,4 +1,3 @@
-package ba.bitcamp.lectures.generics.intro.iterator;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -2,6 +2,7 @@ package LinkedList;
 
 public class ListTest {
 	public static void main(String[] args) {
+		// CR: Ne vidim primjer da koristi iterator?
 		List test = new List();
 		System.out.println("Empty list: " + test);
 		
